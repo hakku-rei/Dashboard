@@ -9,6 +9,7 @@
         <title>Dashboard </title>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     </head>
     <body class="sb-nav-fixed">
@@ -74,12 +75,358 @@
                         <h4>STUDENT</h4>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item ">uhh ror???</li>
-
                             <li class="breadcrumb-item active">Dashboard</li>
                         </ol>
 
                         <hr>
                         <button type="button" class="btn btn-secondary" data-bs-target="#StudentFormModal" data-bs-toggle="modal"><i class="fas fa-plus" ></i>Add Student</button>
+
+                        <style type="text/css">
+                            #normalTable{
+                                width: 100%;
+                                border-collapse: collapse;
+                            }
+                            #normalTable th,
+                            #normalTable td{
+                                border:1px solid;
+                                padding: 5px;
+                                text-align: center;
+
+                            }
+                            #normalTable tr:nth-child(odd){
+                                background-color: #5555;
+                            }
+                        </style>
+
+                        <div class="card mt-3">
+                            <div class="card-header">
+                                <i class="fas fa-table me-2">Normal Table</i>Normal Table
+                            </div>
+                            <div class="card-body">
+                                <table id="normalTable">
+                                    <tr>
+                                        <th>Last Name:</th>
+                                        <th>First Name:</th>
+                                        <th>Middle Name:</th>
+                                        <th>Suffix</th>
+                                        <th>Birthdate:</th>
+                                        <th class="text-center">Action</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Gresones</td>
+                                        <td>Sheree Mae</td>
+                                        <td>Ambot wala ko kabalo </td>
+                                        <td>none</td>
+                                        <td>Jan 10, 2004</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-success"><i class="fas fa-pen"></i></button>
+                                            <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Gresones</td>
+                                        <td>Sheree Mae</td>
+                                        <td>Ambot wala ko kabalo </td>
+                                        <td>none</td>
+                                        <td>Jan 10, 2004</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-success"><i class="fas fa-pen"></i></button>
+                                            <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Gresones</td>
+                                        <td>Sheree Mae</td>
+                                        <td>Ambot wala ko kabalo </td>
+                                        <td>none</td>
+                                        <td>Jan 10, 2004</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-success"><i class="fas fa-pen"></i></button>
+                                            <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Gresones</td>
+                                        <td>Sheree Mae</td>
+                                        <td>Ambot wala ko kabalo </td>
+                                        <td>none</td>
+                                        <td>Jan 10, 2004</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-success"><i class="fas fa-pen"></i></button>
+                                            <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Gresones</td>
+                                        <td>Sheree Mae</td>
+                                        <td>Ambot wala ko kabalo </td>
+                                        <td>none</td>
+                                        <td>Jan 10, 2004</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-success"><i class="fas fa-pen"></i></button>
+                                            <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Gresones</td>
+                                        <td>Sheree Mae</td>
+                                        <td>Ambot wala ko kabalo </td>
+                                        <td>none</td>
+                                        <td>Jan 10, 2004</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-success"><i class="fas fa-pen"></i></button>
+                                            <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Gresones</td>
+                                        <td>Sheree Mae</td>
+                                        <td>Ambot wala ko kabalo </td>
+                                        <td>none</td>
+                                        <td>Jan 10, 2004</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-success"><i class="fas fa-pen"></i></button>
+                                            <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Gresones</td>
+                                        <td>Sheree Mae</td>
+                                        <td>Ambot wala ko kabalo </td>
+                                        <td>none</td>
+                                        <td>Jan 10, 2004</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-success"><i class="fas fa-pen"></i></button>
+                                            <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Gresones</td>
+                                        <td>Sheree Mae</td>
+                                        <td>Ambot wala ko kabalo </td>
+                                        <td>none</td>
+                                        <td>Jan 10, 2004</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-success"><i class="fas fa-pen"></i></button>
+                                            <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Gresones</td>
+                                        <td>Sheree Mae</td>
+                                        <td>Ambot wala ko kabalo </td>
+                                        <td>none</td>
+                                        <td>Jan 10, 2004</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-success"><i class="fas fa-pen"></i></button>
+                                            <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Gresones</td>
+                                        <td>Sheree Mae</td>
+                                        <td>Ambot wala ko kabalo </td>
+                                        <td>none</td>
+                                        <td>Jan 10, 2004</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-success"><i class="fas fa-pen"></i></button>
+                                            <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+
+                                        </td>
+                                    </tr>
+
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="card mt-3">
+                            <div class="card-header">
+                                <i class="fas fa-table me-2"></i>Data Table
+                            </div>
+                            <div class="card-body">
+                                <table id="dataTables">
+                                    <thead>
+                                        <tr>
+                                            <th>Last Name:</th>
+                                            <th>First Name:</th>
+                                            <th>Middle Name:</th>
+                                            <th>Suffix</th>
+                                            <th>Birthdate:</th>
+                                            <th class="text-center">Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Gresones</td>
+                                            <td>Sheree Mae</td>
+                                            <td>Miano </td>
+                                            <td>none</td>
+                                            <td>Jan 10, 2004</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-success"><i class="fas fa-pen"></i></button>
+                                            <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Catipay</td>
+                                            <td>Bonnel Jhon</td>
+                                            <td>Ignacio</td>
+                                            <td>none</td>
+                                            <td>Sept 24, 2004</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-success"><i class="fas fa-pen"></i></button>
+                                            <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Calub</td>
+                                            <td>Ian Carlo</td>
+                                            <td>Ignacio</td>
+                                            <td>none</td>
+                                            <td>Sept 24, 2004</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-success"><i class="fas fa-pen"></i></button>
+                                            <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                            <td>ambot</td>
+                                            <td>Ian Carlo</td>
+                                            <td>idk</td>
+                                            <td>none</td>
+                                            <td>Sept 24, 2004</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-success"><i class="fas fa-pen"></i></button>
+                                            <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Gresones</td>
+                                            <td>Sheree Mae</td>
+                                            <td>Miano </td>
+                                            <td>none</td>
+                                            <td>Jan 10, 2004</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-success"><i class="fas fa-pen"></i></button>
+                                            <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Gresones</td>
+                                            <td>Sheree Mae</td>
+                                            <td>Miano </td>
+                                            <td>none</td>
+                                            <td>Jan 10, 2004</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-success"><i class="fas fa-pen"></i></button>
+                                            <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Gresones</td>
+                                            <td>Sheree Mae</td>
+                                            <td>Miano </td>
+                                            <td>none</td>
+                                            <td>Jan 10, 2004</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-success"><i class="fas fa-pen"></i></button>
+                                            <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Gresones</td>
+                                            <td>Sheree Mae</td>
+                                            <td>Miano </td>
+                                            <td>none</td>
+                                            <td>Jan 10, 2004</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-success"><i class="fas fa-pen"></i></button>
+                                            <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Gresones</td>
+                                            <td>Sheree Mae</td>
+                                            <td>Miano </td>
+                                            <td>none</td>
+                                            <td>Jan 10, 2004</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-success"><i class="fas fa-pen"></i></button>
+                                            <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Gresones</td>
+                                            <td>Sheree Mae</td>
+                                            <td>Miano </td>
+                                            <td>none</td>
+                                            <td>Jan 10, 2004</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-success"><i class="fas fa-pen"></i></button>
+                                            <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Gresones</td>
+                                            <td>Sheree Mae</td>
+                                            <td>Miano </td>
+                                            <td>none</td>
+                                            <td>Jan 10, 2004</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-success"><i class="fas fa-pen"></i></button>
+                                            <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Gresones</td>
+                                            <td>Sheree Mae</td>
+                                            <td>Miano </td>
+                                            <td>none</td>
+                                            <td>Jan 10, 2004</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-success"><i class="fas fa-pen"></i></button>
+                                            <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Naong</td>
+                                            <td>Dejay</td>
+                                            <td>idk</td>
+                                            <td>none</td>
+                                            <td>Sept 24, 2004</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-success"><i class="fas fa-pen"></i></button>
+                                            <button class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+
+                                        </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
 
                     </div>
                 </main>
@@ -123,6 +470,8 @@
                             <div class="modal-footer">
                                 <button type="submit" class="btn btn-primary">Submit</button>
                                 <button type="reset" class="btn btn-secondary">Close</button>
+
+
                             </div>
                         </form>
                         </div>
@@ -131,7 +480,7 @@
                 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid px-4">
                         <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted" >Copyrigth &copy; Your website 2023</div>
+                            <div class="text-muted" >Copyrigth &copy; Your website 2024</div>
                         </div>
                     </div>
                 </footer>
@@ -139,5 +488,15 @@
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
         <script src="js/scripts.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
+
+        <script type="text/javascript">
+            window.addEventListener('DOMContentLoaded', event=>{
+                const dataTables = document.getElementById('dataTables');
+                if (dataTables) {
+                    new simpleDatatables.DataTable(dataTables);
+                }
+            });
+        </script>
     </body>
 </html>
